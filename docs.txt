@@ -1,0 +1,33 @@
+Institution    : College Of Business Science And Technology
+Project        : Retaurant Management
+Semester       : 6th
+Department     : CSE
+Subject        : Software Engineering Practical
+Sbject-Code    : CSE-322
+=====================================
+
+
+Project Developers Information
+=====================================
+Group Leader   : Nibedika Dhar Tama [ ID: 15502000182 ]
+Group Member-1 : Nelly Nokrek [ ID: 15502000175 ]
+Group Member-2 : Anika Samiha Ononya [ ID: 15502000229 ]
+
+
+Poject Developing Elements
+=====================================
+
+Server-site Language            : Python-3
+Server-site Framework           : Django-V-2.2.4
+
+Client-site Language            : Javascript
+  
+Basic Web-app-developing tools  : HTML, CSS, Bootstrap
+
+Database 			: noSQL [ MongoDB ]
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+{% load static %}
+<div class="left-sidebar-pro">
+    <nav id="sidebar" class="">
+
+    	<div class="nalika-profile">
+    		<div class="profile-dtl">
+    			<a href="#"><img src="{{ MEDIA_URL }}profile_img/{{ menuData.profile_picture }}" alt="" /></a>
+    			<h2><span class="min-dtn">{{ menuData.name | title }}</span></h2>
+    		</div>
+    		<div class="profile-social-dtl">
+    			<ul class="dtl-social">
+    				<li><a href="#"><i class="icon nalika-facebook"></i></a></li>
+    				<li><a href="#"><i class="icon nalika-twitter"></i></a></li>
+    				<li><a href="#"><i class="icon nalika-linkedin"></i></a></li>
+    			</ul>
+    		</div>
+    	</div>
+
+        <div class="left-custom-menu-adp-wrap comment-scrollbar">
+            <nav class="sidebar-nav left-sidebar-menu-pro">
+                <ul class="metismenu" id="menu1">
+                    <li>
+                        <a href="{% url 'home' %}" class="btn btn-primary">
+                            Dashboard
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="has-arrow">
+    						<i class="icon nalika-home icon-wrap"></i>
+    						<span class="mini-click-non">Food</span>
+    					</a>
+
+                        <ul class="submenu-angle" aria-expanded="true">
+                            <li><a title="Product Edit" href="{% url 'add_food' %}"><span class="mini-sub-pro">Add Food</span></a></li>
+                            <li><a title="Product List" href="{% url 'all_food' %}"><span class="mini-sub-pro">Food List</span></a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a class="has-arrow">
+                            <i class="icon nalika-home icon-wrap"></i>
+                            <span class="mini-click-non">Order</span>
+                        </a>
+
+                        <ul class="submenu-angle" aria-expanded="true">
+                            <li><a title="Product Edit" href="{% url 'add_order' %}"><span class="mini-sub-pro">Add Order</span></a></li>
+                            <li><a title="Product List" href="{% url 'all_order' %}"><span class="mini-sub-pro">Order List</span></a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a class="has-arrow">
+                            <i class="icon nalika-home icon-wrap"></i>
+                            <span class="mini-click-non">Report</span>
+                        </a>
+
+                        <ul class="submenu-angle" aria-expanded="true">
+                            <li><a title="Product List" href="{% url 'transaction_report' %}"><span class="mini-sub-pro">Transaction Report</span></a></li>
+                            <li><a title="Product List" href="{% url 'revenue_report' %}"><span class="mini-sub-pro">Revenue Report</span></a></li>
+                            <li><a title="Product List" href="{% url 'customer_report' %}"><span class="mini-sub-pro">Customer Report</span></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </nav>
+</div>
